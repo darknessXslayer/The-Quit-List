@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class ButtonRoulette : MonoBehaviour
+public class ButtonRoulette2 : MonoBehaviour
 {
 
     public List<Button> screen01;
@@ -15,7 +15,7 @@ public class ButtonRoulette : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        screen01[currentButton].Select();
+        screen02[currentButton].Select();
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class ButtonRoulette : MonoBehaviour
         {
             currentButton++;
             time = 0;
-            screen01[currentButton].Select();
+            screen02[currentButton].Select();
         }
 
 

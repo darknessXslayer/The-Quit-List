@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-
     public static SceneLoader instance = null;
 
     public void LoadSecondMenu()
